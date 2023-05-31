@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:background="@color/crystal"
+    android:layout_height="match_parent">
+
+    <NumberPicker
+        android:id="@+id/num_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp" />
+
+    <Button
+        android:id="@+id/set_it"
+        android:layout_width="wrap_content"
+        android:background="@drawable/rounded_button"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/num_pick"
+        android:layout_marginRight="-196dp"
+        android:layout_marginBottom="4dp"
+        android:layout_toLeftOf="@+id/num_pick"
+        android:backgroundTint="@color/darkgray"
+        android:text="Set"
+        android:textColor="@color/crystal" />
+
+</RelativeLayout>

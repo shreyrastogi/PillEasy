@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginBottom="7dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="5dp">
+
+        <RelativeLayout
+            android:id="@+id/medicine_layput"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <ImageView
+                android:id="@+id/imgType"
+                android:layout_width="60dp"
+
+                android:layout_height="60dp"
+                android:layout_centerVertical="true"
+                android:layout_marginStart="10dp"
+                android:layout_marginEnd="10dp"
+                tools:ignore="ContentDescription"
+                android:src="@drawable/pills" />
+
+            <TextView
+                android:id="@+id/txtMedicineName"
+                android:layout_width="250dp"
+                android:layout_height="45dp"
+                android:layout_toRightOf="@id/imgType"
+                android:gravity="center_vertical"
+                android:text="Medicine Name"
+                android:textStyle="bold"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/txtTime"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/txtMedicineName"
+                android:layout_toRightOf="@+id/imgType"
+                android:gravity="center_vertical"
+                android:text="Time: 8:00 PM" />
+
+            <TextView
+                android:id="@+id/txtDosage"
+                android:layout_width="125dp"
+                android:layout_height="45dp"
+                android:layout_below="@+id/txtMedicineName"
+                android:layout_toRightOf="@+id/txtTime"
+                android:gravity="center_vertical"
+                android:text="Dosage: 2" />
+
+            <TextView
+                android:id="@+id/medicine_menu_options"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_toRightOf="@+id/txtMedicineName"
+                android:text="&#8942;"
+                android:textAppearance="?android:textAppearanceLarge"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:gravity="center" />
+        </RelativeLayout>
+    </com.google.android.material.card.MaterialCardView>
+</RelativeLayout>

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/bp_sugar_recycler_view_layout"
+    tools:context=".Activities.BPSugar_RecyclerView"
+    android:layout_margin="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:id="@+id/dates_select"
+        android:weightSum="3"
+        android:gravity="center"
+        android:layout_margin="15dp">
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/startdate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Start Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="date_click" />
+
+        <com.google.android.material.textview.MaterialTextView
+            android:id="@+id/enddate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="End Date"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:onClick="date_click" />
+
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/generateData"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rounded_button"
+            android:layout_weight="1"
+            android:text="Go"
+            android:backgroundTint="@color/lightgray"
+            android:padding="5dp"
+            android:textColor="@color/black" />
+    </LinearLayout>
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/bpSugarrecyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/crystal"
+        android:layout_below="@id/dates_select"
+        android:layout_margin="15dp" />
+
+</RelativeLayout>

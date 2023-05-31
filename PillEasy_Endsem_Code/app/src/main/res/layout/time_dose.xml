@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:orientation="horizontal"
+    android:paddingTop="5dp"
+    android:paddingBottom="5dp"
+    android:backgroundTint="@color/crystal">
+
+    <TextView
+        android:id="@+id/time"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:gravity="center_horizontal"
+        android:textSize="18sp"
+        android:padding="6dp"
+        android:background="@color/crystal"
+        android:text="Time"
+        android:textColor="@color/black"
+        android:layout_marginStart="20dp">
+        <!--        android:textColor="#AF9E9E"-->
+
+    </TextView>
+
+    <EditText
+        android:id="@+id/dose"
+        android:layout_width="150dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="20dp"
+        android:gravity="center"
+        android:hint="Dose"
+        android:inputType="number"
+        android:textColorHint="@color/black"
+        android:background="@color/crystal">
+
+        <!--        android:textColor="#AF9E9E"-->
+    </EditText>
+
+    <ImageView
+        android:id="@+id/cancel"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/ic_baseline_clear_24"
+        tools:ignore="ContentDescription" />
+
+</LinearLayout>
