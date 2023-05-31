@@ -115,3 +115,7 @@ There are many apps in this domain, and the main players are MyTherapy Pill Remi
 2) [https://material.io/design](https://material.io/design)
 3) [https://www.sqlite.org/docs.html](https://www.sqlite.org/docs.html)
 4) [https://cloud.google.com/vision/docs/ocr](https://cloud.google.com/vision/docs/ocr)
+
+## Project Team Members
+Harshit Gupta (MT21028), Mohnish Basarkar (MT21052), Madiha Tariq (MT21125), Niharika (MT21132), Shrey Rastogi (MT21145)
+
