@@ -30,12 +30,19 @@ There are many apps in this domain, and the main players are MyTherapy Pill Remi
 - There is a pop-up notification at the user's set time of taking medicine.
 
 ### FEATURES IMPLEMENTED
+<br>
 
+![](PillEasy_App_Images/logo.png)
+<br>
 Application LOGO
 
-Features offered by the App:
+#### Features offered by the App:
 - Welcome Walkthrough Screen:
   - This page aims to welcome new users and get them excited to take that next step on their way to loving your product. The Welcome pages are even more crucial as the First-time user experiences significantly affect long-term revenue.
+  
+  ![](PillEasy_App_Images/walkthrough_1.png)
+  ![](PillEasy_App_Images/walkthrough_2.png)
+  <br>
 
 - Register and Login
 
