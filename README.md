@@ -45,6 +45,11 @@ Application LOGO
   <br>
 
 - Register and Login
+  ![](PillEasy_App_Images/register_1.png)
+  ![](PillEasy_App_Images/register_2.png)
+  ![](PillEasy_App_Images/login_1.png)
+  ![](PillEasy_App_Images/login_2.png)
+  <br>
 
 - Add a Reminder
 
