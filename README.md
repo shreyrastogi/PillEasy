@@ -1,25 +1,22 @@
 # PillEasy
 
-### Motivation
+## Motivation
 
 The motivation to build this product came from observing the elderly people in the family having to suffer through the stress of missing out on pills in the absence of regular supervision. Many times hospitals also display a lack of supervision. People sometimes take incorrect medicines due to lack of information or misjudgment. Neither do they have a proper listing of the medication they are taking and when to consume them. All these happenings motivated us to develop an easy solution for the aged and the ailing.
 
-### Problem Statment
+## Problem Statment
 
 There are times when people miss their medicines due to busy schedules, or maybe they fail to remember those. We are developing an app that keeps track of the time when a person needs to have medicine and alerts him/her regarding the same, along with other add-on features like they can track the blood pressure(systolic/diastolic), sugar and weight, and can share the report via email. Users can also click photos of the medicine strips and prescription images and save them in local storage.
 
-### Related Work
+## Related Work
 
 There are many apps in this domain, and the main players are MyTherapy Pill Reminder, Medisafe Pill Reminder, and Medication Tracker; both of them have more than ten lakhs + downloads. None of the available apps has used the feature of Computer Vision which retrieves medicine names using the images of the medicine strips given as input by the user.
 
-### Features Implemented
+## Features Implemented
 <br>
 
-![](PillEasy_App_Images/logo.png)
-<br>
-Application Logo
-
-#### Features offered by the App:
+<center><img src = "PillEasy_App_Images/logo.png"/></center>
+<p style = "center"> Application Logo </p>
 
 - Welcome Walkthrough Screen:
   - This page aims to welcome new users and get them excited to take that next step on their way to loving your product. The Welcome pages are even more crucial as the First-time user experiences significantly affect long-term revenue.
@@ -91,7 +88,7 @@ Application Logo
   ![](PillEasy_App_Images/notification_2.png)
   <br>
 
-### Tools & Technology
+## Tools & Technology
 
 1. Android Studio
 2. SQLite Database
@@ -100,19 +97,19 @@ Application Logo
 5. Any Chart Library
 6. Optical Character Recognition
 
-### Challenges Faced
+## Challenges Faced
 
 - Several libraries are supported by only a few particular android versions, like the camera feature, which works for Android versions lower than 10.
 - PDF generation for daily health details was not possible due to issues with storage and saving issues with Android versions.
 
-### Future Work
+## Future Work
 
 - One future work can be to add doctors who can interact with patients and keep track of them.
 - Another exciting field can be to add an e-commerce website where patients can shop for medicine.
 - Lab pathology can also be added where users can take the medical test described by doctors at one door.
 - We can also use printed prescriptions to fill all medicines the patient has to take at what time and interval in the future.
 
-### References
+## References
 
 1) [https://developer.android.com/docs](https://developer.android.com/docs)
 2) [https://material.io/design](https://material.io/design)
